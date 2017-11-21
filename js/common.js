@@ -5,6 +5,6 @@
 		diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
 	if(diffDays >= 0) {
-		$('#head-title').text('결혼까지 ' + diffDays + '일 남았습니다.');
+		$('#head-title').html('D-' + diffDays + '일');
 	}
 })(jQuery);
